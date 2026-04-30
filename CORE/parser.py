@@ -41,4 +41,17 @@ def extract_message(line, level):
 
     if message:
         return message
+
+    return None
+
+
+def parse_line(line):
+    timestamp = extract_timestamp(line)
+    level = extract_level(line)
+    message = extract_message(line, level)
+
+    if timestamp and level and message:
+
+        return {"timestamp": timestamp, "level": level, "message": message, "raw": line}
+
     return None
