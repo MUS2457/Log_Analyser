@@ -1,3 +1,5 @@
+from pyexpat.errors import messages
+
 
 class LogAnalyser:
     def __init__(self, entries):
@@ -65,3 +67,51 @@ class LogAnalyser:
                 results.append(entry)
 
         return results
+
+    def group_by_date(self):
+        group_date = {}
+
+        if not self.entries :
+            return group_date
+
+        for entry in self.entries:
+            if entry.date not in group_date :
+                group_date[entry.date] = []
+
+            group_date[entry.date].append(entry)
+
+        return group_date
+
+    def common_words_across_logs(self):
+        results = []
+
+        if not self.entries:
+            return results
+
+        for entry in self.entries:
+            results.append(entry.message)
+
+        if results:
+
+            words_set = [set(message.lower().split()) for message in results]
+            # convert each message into a set of unique words
+            common_words = set.intersection(*words_set)
+            # * unpacks the list so intersection receives each set separately
+            #  intersection() returns words that appear in every message
+
+            return common_words
+
+        return None
+
+    def most_common_word(self):
+        counter = {}
+
+        if not self.entries:
+            return []
+
+        for entry in self.entries:
+            words = entry.message.lower().split()
+            for word in words:
+                counter[word] = counter.get(word, 0) + 1
+
+        return max(counter, key=counter.get)
