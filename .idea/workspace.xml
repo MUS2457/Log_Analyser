@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85336342-48d5-429d-afff-c648ca67f999" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ANALYSIS/analyser_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ANALYSIS/analyser.py" beforeDir="false" afterPath="$PROJECT_DIR$/ANALYSIS/analyser.py" afterDir="false" />
     </list>
@@ -24,7 +25,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -80,7 +81,8 @@
       <workItem from="1777628848619" duration="8229000" />
       <workItem from="1777691196980" duration="262000" />
       <workItem from="1777713279788" duration="5027000" />
-      <workItem from="1777770591039" duration="6373000" />
+      <workItem from="1777770591039" duration="6522000" />
+      <workItem from="1777795681781" duration="1918000" />
     </task>
     <servers />
   </component>

@@ -103,7 +103,7 @@ class LogAnalyser:
 
         return None
 
-    def most_common_word(self):
+    def word_frequency(self):
         counter = {}
 
         if not self.entries:
@@ -114,4 +114,9 @@ class LogAnalyser:
             for word in words:
                 counter[word] = counter.get(word, 0) + 1
 
-        return max(counter, key=counter.get)
+        return  counter
+
+
+
+
+
