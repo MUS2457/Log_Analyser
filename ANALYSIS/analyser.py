@@ -1,4 +1,4 @@
-from pyexpat.errors import messages
+import re
 
 
 class LogAnalyser:
@@ -146,6 +146,23 @@ class LogAnalyser:
                 results.append(entry)
 
         return results
+
+    def messages_matching(self, pattern):
+        results = []
+        if not self.entries:
+            return results
+
+        regex = re.compile(pattern, re.IGNORECASE) # compile manually for fast search
+                                                   # re.ignore means do not care if upper, lower... all possibilities
+        for entry in self.entries:
+            if regex.search(entry.message):  # if I did not compile manually python will do it every time while searching
+                results.append(entry)
+
+        return results
+
+
+
+
 
 
 
