@@ -7,7 +7,6 @@ class LogAnalyser:
 
     def count_by_level(self):
         counts = {}
-        tl_entries = 0
 
         if not self.entries :
             return counts
@@ -17,9 +16,8 @@ class LogAnalyser:
                  counts[entry.level] = 0
 
             counts[entry.level] += 1
-            tl_entries += 1
 
-        return counts , tl_entries
+        return counts
 
     def filter_by_level(self, level):
         results = []
@@ -115,6 +113,39 @@ class LogAnalyser:
                 counter[word] = counter.get(word, 0) + 1
 
         return  counter
+
+    def total_entries(self):
+        if not self.entries :
+            return 0
+        return len(self.entries)
+
+    def count_by_message(self):
+        counter = {}
+        if not self.entries:
+            return counter
+
+        for entry in self.entries:
+            message = entry.message.lower()
+            counter[message] = counter.get(message, 0) + 1
+
+        return counter
+
+    def unique_messages(self):
+        if not self.entries :
+            return set()
+
+        return  set([entry.message.lower() for entry in self.entries])
+
+    def messages_containing(self, keywords):
+        results = []
+        if not self.entries :
+            return results
+
+        for entry in self.entries:
+            if keywords.lower() in entry.message.lower():
+                results.append(entry)
+
+        return results
 
 
 
