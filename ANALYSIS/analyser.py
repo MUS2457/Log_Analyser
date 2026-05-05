@@ -1,5 +1,5 @@
 import re
-
+import analyser_helper
 
 class LogAnalyser:
     def __init__(self, entries):
@@ -159,6 +159,60 @@ class LogAnalyser:
                 results.append(entry)
 
         return results
+
+    def peak_log_hour(self):
+        counter = {}
+
+        if not self.entries :
+            return counter
+
+        for entry in self.entries:   # .hour I used it cause it s an object
+            hour = entry.timestamp.hour             # this can be used too (t) if timestamp was not an object
+            counter[hour] = counter.get(hour,0) + 1 # t = int(entry.timestamp.split(" ")[1].split(":")[0])
+                                                    # split(x)  x is the point of cut
+        return max(counter, key=counter.get)
+
+    def summary_report(self, top_n=5):
+        
+        word_freq = self.word_frequency()
+        sorted_words = analyser_helper.sort_words_by_frequency(word_freq)
+        top_words = analyser_helper.top_n_words(sorted_words, top_n)
+        most_common_w = analyser_helper.most_common_word(word_freq)
+        msg_counter = self.count_by_message()
+        sorted_messages = analyser_helper.sort_messages_by_frequency(msg_counter)
+        top_msgs = analyser_helper.top_n_messages(sorted_messages, top_n)
+        most_common_msg = analyser_helper.most_common_message(msg_counter)
+        common_words = self.common_words_across_logs()
+        common_words = list(common_words) if common_words else []
+        grouped = self.group_by_date()
+        logs_per_date = {str(date): len(entries) for date, entries in grouped.items()}
+
+        return {
+            # basic stats
+            "total_entries": self.total_entries(),
+            "count_by_level": self.count_by_level(),
+            "peak_log_hour": self.peak_log_hour(),
+
+            # word analysis
+            "word_frequency": word_freq,
+            "sorted_word_frequency": sorted_words,
+            "top_words": top_words,
+            "most_common_word": most_common_w,
+
+            # message analysis
+            "count_by_message": msg_counter,
+            "sorted_messages_by_frequency": sorted_messages,
+            "top_messages": top_msgs,
+            "most_common_message": most_common_msg,
+
+            # common words
+            "common_words_across_logs": common_words,
+
+            # date analysis
+            "logs_per_date": logs_per_date,
+            "group_by_date": {str(date): [e.message for e in entries] for date, entries in grouped.items()}
+        }
+
 
 
 
