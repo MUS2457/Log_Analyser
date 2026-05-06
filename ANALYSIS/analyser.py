@@ -73,10 +73,10 @@ class LogAnalyser:
             return group_date
 
         for entry in self.entries:
-            if entry.date not in group_date :
-                group_date[entry.date] = []
+            if entry.timestamp.date() not in group_date :
+                group_date[entry.timestamp.date()] = []
 
-            group_date[entry.date].append(entry)
+            group_date[entry.timestamp.date()].append(entry)
 
         return group_date
 
