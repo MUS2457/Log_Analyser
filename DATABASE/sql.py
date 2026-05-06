@@ -44,7 +44,7 @@ def insert_into_tables(conn, entries):
 
         cursor.execute(
             "INSERT INTO log_info (log_id, timestamp, level, message) VALUES (?, ?, ?, ?)",
-            (log_id, entry.timestamp, entry.level, entry.message)
+            (log_id, entry.timestamp, entry.level.upper(), entry.message.lower())
         )
 
     conn.commit()
