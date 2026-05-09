@@ -1,5 +1,5 @@
 import re
-import analyser_helper
+from ANALYSIS import analyser_helper
 
 class LogAnalyser:
     def __init__(self, entries):

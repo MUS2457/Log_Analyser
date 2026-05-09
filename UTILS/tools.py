@@ -5,6 +5,7 @@ from DATABASE import summary_json
 
 def get_results(rows):
     results = {}
+
     for row in rows:
         created_at = row["created_at"]
         timestamp = row["timestamp"]
@@ -14,7 +15,10 @@ def get_results(rows):
 
         dt = datetime.strptime(created_at, "%Y-%m-%d %H:%M:%S")
 
-        results[dt] = LogEntry(timestamp, level, message, raw_message)
+        if dt not in results:
+            results[dt] = []
+
+        results[dt].append(LogEntry(timestamp, level, message, raw_message))
 
     return results
 
@@ -47,9 +51,10 @@ def search_by_level(conn):
 
         results = get_results(rows)
 
-        print(f"\nRESULTS FOR LEVEL: {level_user.upper()} , {len(results)} entries found")
-        for dt, info in results.items():
-            print(f"{dt} : {info}")
+        print(f"\nRESULTS FOR LEVEL: {level_user.upper()} , {sum(len(v) for v in results.values())} entries found")
+        for dt, entries in results.items():
+            for info in entries:
+                print(f"{dt} : {info}")
 
         return results
 
@@ -88,9 +93,10 @@ def search_by_date(conn):
 
         results = get_results(rows)
 
-        print(f"\nRESULTS FOR DATE: {date} ,{len(results)} entries found.")
-        for dt, info in results.items():
-            print(f"{dt} : {info}")
+        print(f"\nRESULTS FOR DATE: {date} ,{sum(len(v) for v in results.values())} entries found.")
+        for dt, entries in results.items():
+            for entry in entries:
+                print(f"{dt} : {entry}")
 
         return results
 
@@ -134,9 +140,10 @@ def search_by_date_range(conn):
 
         results = get_results(rows)
 
-        print(f"\nRESULTS FOR DATE RANGE BETWEEN '{date_1}' AND '{date_2}' ,{len(results)} entries found.")
-        for dt, info in results.items():
-            print(f"{dt} : {info}")
+        print(f"\nRESULTS FOR DATE RANGE BETWEEN '{date_1}' AND '{date_2}' ,{sum(len(v) for v in results.values())} entries found.")
+        for dt, entries in results.items():
+            for info in entries:
+                print(f"{dt} : {info}")
 
         return results
 
@@ -170,9 +177,10 @@ def search_by_keyword(conn):
 
             results = get_results(rows)
 
-            print(f"\nRESULTS FOR KEYWORD: {user_keyword}, {len(results)} entries found.")
-            for dt, info in results.items():
-                print(f"{dt} : {info}")
+            print(f"\nRESULTS FOR KEYWORD: {user_keyword}, {sum(len(v) for v in results.values())} entries found.")
+            for dt, entries in results.items():
+                for info in entries:
+                    print(f"{dt} : {info}")
 
             return results
 

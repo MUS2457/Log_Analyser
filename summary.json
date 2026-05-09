@@ -1,0 +1,1624 @@
+{
+    "2026-05-09 13:18:23": {
+        "total_entries": 48,
+        "count_by_level": {
+            "INFO": 26,
+            "DEBUG": 9,
+            "WARNING": 6,
+            "ERROR": 6,
+            "CRITICAL": 1
+        },
+        "peak_log_hour": 9,
+        "word_frequency": {
+            "server": 1,
+            "started": 1,
+            "successfully": 2,
+            "initializing": 1,
+            "modules": 1,
+            "loading": 1,
+            "configuration": 1,
+            "deprecated": 1,
+            "api": 1,
+            "usage": 2,
+            "detected": 2,
+            "failed": 2,
+            "to": 3,
+            "load": 2,
+            "plugin:": 1,
+            "missing": 1,
+            "dependency": 1,
+            "retrying": 3,
+            "plugin": 2,
+            "loaded": 1,
+            "checking": 2,
+            "system": 5,
+            "health": 2,
+            "ok": 1,
+            "cpu": 1,
+            "temperature": 4,
+            "too": 1,
+            "high": 2,
+            "cooling": 4,
+            "activated": 1,
+            "still": 1,
+            "above": 1,
+            "threshold": 1,
+            "malfunction": 1,
+            "switching": 2,
+            "backup": 2,
+            "active": 2,
+            "monitoring": 1,
+            "stabilized": 1,
+            "starting": 2,
+            "scheduled": 1,
+            "tasks": 1,
+            "task": 2,
+            "queue": 1,
+            "size:": 1,
+            "12": 1,
+            "running": 3,
+            "task:": 2,
+            "cleanup_temp": 2,
+            "completed:": 1,
+            "sync_database": 1,
+            "database": 3,
+            "sync": 3,
+            "failed:": 1,
+            "timeout": 1,
+            "successful": 2,
+            "updating": 1,
+            "cache": 2,
+            "updated": 1,
+            "user": 2,
+            "login:": 1,
+            "admin": 2,
+            "logout:": 1,
+            "session": 2,
+            "cleanup": 2,
+            "done": 1,
+            "memory": 4,
+            "allocation": 1,
+            "attempting": 1,
+            "recovery": 2,
+            "disk": 5,
+            "space": 2,
+            "below": 1,
+            "10%": 1,
+            "write": 1,
+            "failure": 1,
+            "secondary": 2,
+            "integrity": 2,
+            "check": 2,
+            "passed": 1,
+            "network": 4,
+            "diagnostics": 1,
+            "unreachable": 1,
+            "connection": 2,
+            "restored": 1,
+            "finalizing": 1,
+            "startup": 1,
+            "sequence": 1,
+            "fully": 1,
+            "operational": 1
+        },
+        "sorted_word_frequency": [
+            [
+                "system",
+                5
+            ],
+            [
+                "disk",
+                5
+            ],
+            [
+                "temperature",
+                4
+            ],
+            [
+                "cooling",
+                4
+            ],
+            [
+                "memory",
+                4
+            ],
+            [
+                "network",
+                4
+            ],
+            [
+                "to",
+                3
+            ],
+            [
+                "retrying",
+                3
+            ],
+            [
+                "running",
+                3
+            ],
+            [
+                "database",
+                3
+            ],
+            [
+                "sync",
+                3
+            ],
+            [
+                "successfully",
+                2
+            ],
+            [
+                "usage",
+                2
+            ],
+            [
+                "detected",
+                2
+            ],
+            [
+                "failed",
+                2
+            ],
+            [
+                "load",
+                2
+            ],
+            [
+                "plugin",
+                2
+            ],
+            [
+                "checking",
+                2
+            ],
+            [
+                "health",
+                2
+            ],
+            [
+                "high",
+                2
+            ],
+            [
+                "switching",
+                2
+            ],
+            [
+                "backup",
+                2
+            ],
+            [
+                "active",
+                2
+            ],
+            [
+                "starting",
+                2
+            ],
+            [
+                "task",
+                2
+            ],
+            [
+                "task:",
+                2
+            ],
+            [
+                "cleanup_temp",
+                2
+            ],
+            [
+                "successful",
+                2
+            ],
+            [
+                "cache",
+                2
+            ],
+            [
+                "user",
+                2
+            ],
+            [
+                "admin",
+                2
+            ],
+            [
+                "session",
+                2
+            ],
+            [
+                "cleanup",
+                2
+            ],
+            [
+                "recovery",
+                2
+            ],
+            [
+                "space",
+                2
+            ],
+            [
+                "secondary",
+                2
+            ],
+            [
+                "integrity",
+                2
+            ],
+            [
+                "check",
+                2
+            ],
+            [
+                "connection",
+                2
+            ],
+            [
+                "server",
+                1
+            ],
+            [
+                "started",
+                1
+            ],
+            [
+                "initializing",
+                1
+            ],
+            [
+                "modules",
+                1
+            ],
+            [
+                "loading",
+                1
+            ],
+            [
+                "configuration",
+                1
+            ],
+            [
+                "deprecated",
+                1
+            ],
+            [
+                "api",
+                1
+            ],
+            [
+                "plugin:",
+                1
+            ],
+            [
+                "missing",
+                1
+            ],
+            [
+                "dependency",
+                1
+            ],
+            [
+                "loaded",
+                1
+            ],
+            [
+                "ok",
+                1
+            ],
+            [
+                "cpu",
+                1
+            ],
+            [
+                "too",
+                1
+            ],
+            [
+                "activated",
+                1
+            ],
+            [
+                "still",
+                1
+            ],
+            [
+                "above",
+                1
+            ],
+            [
+                "threshold",
+                1
+            ],
+            [
+                "malfunction",
+                1
+            ],
+            [
+                "monitoring",
+                1
+            ],
+            [
+                "stabilized",
+                1
+            ],
+            [
+                "scheduled",
+                1
+            ],
+            [
+                "tasks",
+                1
+            ],
+            [
+                "queue",
+                1
+            ],
+            [
+                "size:",
+                1
+            ],
+            [
+                "12",
+                1
+            ],
+            [
+                "completed:",
+                1
+            ],
+            [
+                "sync_database",
+                1
+            ],
+            [
+                "failed:",
+                1
+            ],
+            [
+                "timeout",
+                1
+            ],
+            [
+                "updating",
+                1
+            ],
+            [
+                "updated",
+                1
+            ],
+            [
+                "login:",
+                1
+            ],
+            [
+                "logout:",
+                1
+            ],
+            [
+                "done",
+                1
+            ],
+            [
+                "allocation",
+                1
+            ],
+            [
+                "attempting",
+                1
+            ],
+            [
+                "below",
+                1
+            ],
+            [
+                "10%",
+                1
+            ],
+            [
+                "write",
+                1
+            ],
+            [
+                "failure",
+                1
+            ],
+            [
+                "passed",
+                1
+            ],
+            [
+                "diagnostics",
+                1
+            ],
+            [
+                "unreachable",
+                1
+            ],
+            [
+                "restored",
+                1
+            ],
+            [
+                "finalizing",
+                1
+            ],
+            [
+                "startup",
+                1
+            ],
+            [
+                "sequence",
+                1
+            ],
+            [
+                "fully",
+                1
+            ],
+            [
+                "operational",
+                1
+            ]
+        ],
+        "top_words": [
+            [
+                "system",
+                5
+            ],
+            [
+                "disk",
+                5
+            ],
+            [
+                "temperature",
+                4
+            ],
+            [
+                "cooling",
+                4
+            ],
+            [
+                "memory",
+                4
+            ]
+        ],
+        "most_common_word": "system",
+        "count_by_message": {
+            "server started successfully": 1,
+            "initializing modules": 1,
+            "loading configuration": 1,
+            "deprecated api usage detected": 1,
+            "failed to load plugin: missing dependency": 1,
+            "retrying plugin load": 1,
+            "plugin loaded successfully": 1,
+            "checking system health": 1,
+            "system health ok": 1,
+            "cpu temperature too high": 1,
+            "cooling system activated": 1,
+            "temperature still above threshold": 1,
+            "cooling system malfunction": 1,
+            "switching to backup cooling": 1,
+            "backup cooling active": 1,
+            "monitoring temperature": 1,
+            "temperature stabilized": 1,
+            "starting scheduled tasks": 1,
+            "task queue size: 12": 1,
+            "running task: cleanup_temp": 1,
+            "task completed: cleanup_temp": 1,
+            "running task: sync_database": 1,
+            "database sync failed: timeout": 1,
+            "retrying database sync": 1,
+            "database sync successful": 1,
+            "updating cache": 1,
+            "cache updated": 1,
+            "user login: admin": 1,
+            "user logout: admin": 1,
+            "session cleanup": 1,
+            "session cleanup done": 1,
+            "high memory usage detected": 1,
+            "memory allocation failed": 1,
+            "attempting memory recovery": 1,
+            "memory recovery successful": 1,
+            "checking disk space": 1,
+            "disk space below 10%": 1,
+            "disk write failure": 1,
+            "switching to secondary disk": 1,
+            "secondary disk active": 1,
+            "running integrity check": 1,
+            "integrity check passed": 1,
+            "starting network diagnostics": 1,
+            "network unreachable": 1,
+            "retrying network connection": 1,
+            "network connection restored": 1,
+            "finalizing startup sequence": 1,
+            "system fully operational": 1
+        },
+        "sorted_messages_by_frequency": [
+            [
+                "server started successfully",
+                1
+            ],
+            [
+                "initializing modules",
+                1
+            ],
+            [
+                "loading configuration",
+                1
+            ],
+            [
+                "deprecated api usage detected",
+                1
+            ],
+            [
+                "failed to load plugin: missing dependency",
+                1
+            ],
+            [
+                "retrying plugin load",
+                1
+            ],
+            [
+                "plugin loaded successfully",
+                1
+            ],
+            [
+                "checking system health",
+                1
+            ],
+            [
+                "system health ok",
+                1
+            ],
+            [
+                "cpu temperature too high",
+                1
+            ],
+            [
+                "cooling system activated",
+                1
+            ],
+            [
+                "temperature still above threshold",
+                1
+            ],
+            [
+                "cooling system malfunction",
+                1
+            ],
+            [
+                "switching to backup cooling",
+                1
+            ],
+            [
+                "backup cooling active",
+                1
+            ],
+            [
+                "monitoring temperature",
+                1
+            ],
+            [
+                "temperature stabilized",
+                1
+            ],
+            [
+                "starting scheduled tasks",
+                1
+            ],
+            [
+                "task queue size: 12",
+                1
+            ],
+            [
+                "running task: cleanup_temp",
+                1
+            ],
+            [
+                "task completed: cleanup_temp",
+                1
+            ],
+            [
+                "running task: sync_database",
+                1
+            ],
+            [
+                "database sync failed: timeout",
+                1
+            ],
+            [
+                "retrying database sync",
+                1
+            ],
+            [
+                "database sync successful",
+                1
+            ],
+            [
+                "updating cache",
+                1
+            ],
+            [
+                "cache updated",
+                1
+            ],
+            [
+                "user login: admin",
+                1
+            ],
+            [
+                "user logout: admin",
+                1
+            ],
+            [
+                "session cleanup",
+                1
+            ],
+            [
+                "session cleanup done",
+                1
+            ],
+            [
+                "high memory usage detected",
+                1
+            ],
+            [
+                "memory allocation failed",
+                1
+            ],
+            [
+                "attempting memory recovery",
+                1
+            ],
+            [
+                "memory recovery successful",
+                1
+            ],
+            [
+                "checking disk space",
+                1
+            ],
+            [
+                "disk space below 10%",
+                1
+            ],
+            [
+                "disk write failure",
+                1
+            ],
+            [
+                "switching to secondary disk",
+                1
+            ],
+            [
+                "secondary disk active",
+                1
+            ],
+            [
+                "running integrity check",
+                1
+            ],
+            [
+                "integrity check passed",
+                1
+            ],
+            [
+                "starting network diagnostics",
+                1
+            ],
+            [
+                "network unreachable",
+                1
+            ],
+            [
+                "retrying network connection",
+                1
+            ],
+            [
+                "network connection restored",
+                1
+            ],
+            [
+                "finalizing startup sequence",
+                1
+            ],
+            [
+                "system fully operational",
+                1
+            ]
+        ],
+        "top_messages": [
+            [
+                "server started successfully",
+                1
+            ],
+            [
+                "initializing modules",
+                1
+            ],
+            [
+                "loading configuration",
+                1
+            ],
+            [
+                "deprecated api usage detected",
+                1
+            ],
+            [
+                "failed to load plugin: missing dependency",
+                1
+            ]
+        ],
+        "most_common_message": "server started successfully",
+        "common_words_across_logs": [],
+        "logs_per_date": {
+            "2024-05-01": 48
+        },
+        "group_by_date": {
+            "2024-05-01": [
+                "Server started successfully",
+                "Initializing modules",
+                "Loading configuration",
+                "Deprecated API usage detected",
+                "Failed to load plugin: missing dependency",
+                "Retrying plugin load",
+                "Plugin loaded successfully",
+                "Checking system health",
+                "System health OK",
+                "CPU temperature too high",
+                "Cooling system activated",
+                "Temperature still above threshold",
+                "Cooling system malfunction",
+                "Switching to backup cooling",
+                "Backup cooling active",
+                "Monitoring temperature",
+                "Temperature stabilized",
+                "Starting scheduled tasks",
+                "Task queue size: 12",
+                "Running task: cleanup_temp",
+                "Task completed: cleanup_temp",
+                "Running task: sync_database",
+                "Database sync failed: timeout",
+                "Retrying database sync",
+                "Database sync successful",
+                "Updating cache",
+                "Cache updated",
+                "User login: admin",
+                "User logout: admin",
+                "Session cleanup",
+                "Session cleanup done",
+                "High memory usage detected",
+                "Memory allocation failed",
+                "Attempting memory recovery",
+                "Memory recovery successful",
+                "Checking disk space",
+                "Disk space below 10%",
+                "Disk write failure",
+                "Switching to secondary disk",
+                "Secondary disk active",
+                "Running integrity check",
+                "Integrity check passed",
+                "Starting network diagnostics",
+                "Network unreachable",
+                "Retrying network connection",
+                "Network connection restored",
+                "Finalizing startup sequence",
+                "System fully operational"
+            ]
+        }
+    },
+    "2026-05-09 13:28:59": {
+        "total_entries": 48,
+        "count_by_level": {
+            "INFO": 26,
+            "DEBUG": 9,
+            "WARNING": 6,
+            "ERROR": 6,
+            "CRITICAL": 1
+        },
+        "peak_log_hour": 9,
+        "word_frequency": {
+            "server": 1,
+            "started": 1,
+            "successfully": 2,
+            "initializing": 1,
+            "modules": 1,
+            "loading": 1,
+            "configuration": 1,
+            "deprecated": 1,
+            "api": 1,
+            "usage": 2,
+            "detected": 2,
+            "failed": 2,
+            "to": 3,
+            "load": 2,
+            "plugin:": 1,
+            "missing": 1,
+            "dependency": 1,
+            "retrying": 3,
+            "plugin": 2,
+            "loaded": 1,
+            "checking": 2,
+            "system": 5,
+            "health": 2,
+            "ok": 1,
+            "cpu": 1,
+            "temperature": 4,
+            "too": 1,
+            "high": 2,
+            "cooling": 4,
+            "activated": 1,
+            "still": 1,
+            "above": 1,
+            "threshold": 1,
+            "malfunction": 1,
+            "switching": 2,
+            "backup": 2,
+            "active": 2,
+            "monitoring": 1,
+            "stabilized": 1,
+            "starting": 2,
+            "scheduled": 1,
+            "tasks": 1,
+            "task": 2,
+            "queue": 1,
+            "size:": 1,
+            "12": 1,
+            "running": 3,
+            "task:": 2,
+            "cleanup_temp": 2,
+            "completed:": 1,
+            "sync_database": 1,
+            "database": 3,
+            "sync": 3,
+            "failed:": 1,
+            "timeout": 1,
+            "successful": 2,
+            "updating": 1,
+            "cache": 2,
+            "updated": 1,
+            "user": 2,
+            "login:": 1,
+            "admin": 2,
+            "logout:": 1,
+            "session": 2,
+            "cleanup": 2,
+            "done": 1,
+            "memory": 4,
+            "allocation": 1,
+            "attempting": 1,
+            "recovery": 2,
+            "disk": 5,
+            "space": 2,
+            "below": 1,
+            "10%": 1,
+            "write": 1,
+            "failure": 1,
+            "secondary": 2,
+            "integrity": 2,
+            "check": 2,
+            "passed": 1,
+            "network": 4,
+            "diagnostics": 1,
+            "unreachable": 1,
+            "connection": 2,
+            "restored": 1,
+            "finalizing": 1,
+            "startup": 1,
+            "sequence": 1,
+            "fully": 1,
+            "operational": 1
+        },
+        "sorted_word_frequency": [
+            [
+                "system",
+                5
+            ],
+            [
+                "disk",
+                5
+            ],
+            [
+                "temperature",
+                4
+            ],
+            [
+                "cooling",
+                4
+            ],
+            [
+                "memory",
+                4
+            ],
+            [
+                "network",
+                4
+            ],
+            [
+                "to",
+                3
+            ],
+            [
+                "retrying",
+                3
+            ],
+            [
+                "running",
+                3
+            ],
+            [
+                "database",
+                3
+            ],
+            [
+                "sync",
+                3
+            ],
+            [
+                "successfully",
+                2
+            ],
+            [
+                "usage",
+                2
+            ],
+            [
+                "detected",
+                2
+            ],
+            [
+                "failed",
+                2
+            ],
+            [
+                "load",
+                2
+            ],
+            [
+                "plugin",
+                2
+            ],
+            [
+                "checking",
+                2
+            ],
+            [
+                "health",
+                2
+            ],
+            [
+                "high",
+                2
+            ],
+            [
+                "switching",
+                2
+            ],
+            [
+                "backup",
+                2
+            ],
+            [
+                "active",
+                2
+            ],
+            [
+                "starting",
+                2
+            ],
+            [
+                "task",
+                2
+            ],
+            [
+                "task:",
+                2
+            ],
+            [
+                "cleanup_temp",
+                2
+            ],
+            [
+                "successful",
+                2
+            ],
+            [
+                "cache",
+                2
+            ],
+            [
+                "user",
+                2
+            ],
+            [
+                "admin",
+                2
+            ],
+            [
+                "session",
+                2
+            ],
+            [
+                "cleanup",
+                2
+            ],
+            [
+                "recovery",
+                2
+            ],
+            [
+                "space",
+                2
+            ],
+            [
+                "secondary",
+                2
+            ],
+            [
+                "integrity",
+                2
+            ],
+            [
+                "check",
+                2
+            ],
+            [
+                "connection",
+                2
+            ],
+            [
+                "server",
+                1
+            ],
+            [
+                "started",
+                1
+            ],
+            [
+                "initializing",
+                1
+            ],
+            [
+                "modules",
+                1
+            ],
+            [
+                "loading",
+                1
+            ],
+            [
+                "configuration",
+                1
+            ],
+            [
+                "deprecated",
+                1
+            ],
+            [
+                "api",
+                1
+            ],
+            [
+                "plugin:",
+                1
+            ],
+            [
+                "missing",
+                1
+            ],
+            [
+                "dependency",
+                1
+            ],
+            [
+                "loaded",
+                1
+            ],
+            [
+                "ok",
+                1
+            ],
+            [
+                "cpu",
+                1
+            ],
+            [
+                "too",
+                1
+            ],
+            [
+                "activated",
+                1
+            ],
+            [
+                "still",
+                1
+            ],
+            [
+                "above",
+                1
+            ],
+            [
+                "threshold",
+                1
+            ],
+            [
+                "malfunction",
+                1
+            ],
+            [
+                "monitoring",
+                1
+            ],
+            [
+                "stabilized",
+                1
+            ],
+            [
+                "scheduled",
+                1
+            ],
+            [
+                "tasks",
+                1
+            ],
+            [
+                "queue",
+                1
+            ],
+            [
+                "size:",
+                1
+            ],
+            [
+                "12",
+                1
+            ],
+            [
+                "completed:",
+                1
+            ],
+            [
+                "sync_database",
+                1
+            ],
+            [
+                "failed:",
+                1
+            ],
+            [
+                "timeout",
+                1
+            ],
+            [
+                "updating",
+                1
+            ],
+            [
+                "updated",
+                1
+            ],
+            [
+                "login:",
+                1
+            ],
+            [
+                "logout:",
+                1
+            ],
+            [
+                "done",
+                1
+            ],
+            [
+                "allocation",
+                1
+            ],
+            [
+                "attempting",
+                1
+            ],
+            [
+                "below",
+                1
+            ],
+            [
+                "10%",
+                1
+            ],
+            [
+                "write",
+                1
+            ],
+            [
+                "failure",
+                1
+            ],
+            [
+                "passed",
+                1
+            ],
+            [
+                "diagnostics",
+                1
+            ],
+            [
+                "unreachable",
+                1
+            ],
+            [
+                "restored",
+                1
+            ],
+            [
+                "finalizing",
+                1
+            ],
+            [
+                "startup",
+                1
+            ],
+            [
+                "sequence",
+                1
+            ],
+            [
+                "fully",
+                1
+            ],
+            [
+                "operational",
+                1
+            ]
+        ],
+        "top_words": [
+            [
+                "system",
+                5
+            ],
+            [
+                "disk",
+                5
+            ],
+            [
+                "temperature",
+                4
+            ],
+            [
+                "cooling",
+                4
+            ],
+            [
+                "memory",
+                4
+            ]
+        ],
+        "most_common_word": "system",
+        "count_by_message": {
+            "server started successfully": 1,
+            "initializing modules": 1,
+            "loading configuration": 1,
+            "deprecated api usage detected": 1,
+            "failed to load plugin: missing dependency": 1,
+            "retrying plugin load": 1,
+            "plugin loaded successfully": 1,
+            "checking system health": 1,
+            "system health ok": 1,
+            "cpu temperature too high": 1,
+            "cooling system activated": 1,
+            "temperature still above threshold": 1,
+            "cooling system malfunction": 1,
+            "switching to backup cooling": 1,
+            "backup cooling active": 1,
+            "monitoring temperature": 1,
+            "temperature stabilized": 1,
+            "starting scheduled tasks": 1,
+            "task queue size: 12": 1,
+            "running task: cleanup_temp": 1,
+            "task completed: cleanup_temp": 1,
+            "running task: sync_database": 1,
+            "database sync failed: timeout": 1,
+            "retrying database sync": 1,
+            "database sync successful": 1,
+            "updating cache": 1,
+            "cache updated": 1,
+            "user login: admin": 1,
+            "user logout: admin": 1,
+            "session cleanup": 1,
+            "session cleanup done": 1,
+            "high memory usage detected": 1,
+            "memory allocation failed": 1,
+            "attempting memory recovery": 1,
+            "memory recovery successful": 1,
+            "checking disk space": 1,
+            "disk space below 10%": 1,
+            "disk write failure": 1,
+            "switching to secondary disk": 1,
+            "secondary disk active": 1,
+            "running integrity check": 1,
+            "integrity check passed": 1,
+            "starting network diagnostics": 1,
+            "network unreachable": 1,
+            "retrying network connection": 1,
+            "network connection restored": 1,
+            "finalizing startup sequence": 1,
+            "system fully operational": 1
+        },
+        "sorted_messages_by_frequency": [
+            [
+                "server started successfully",
+                1
+            ],
+            [
+                "initializing modules",
+                1
+            ],
+            [
+                "loading configuration",
+                1
+            ],
+            [
+                "deprecated api usage detected",
+                1
+            ],
+            [
+                "failed to load plugin: missing dependency",
+                1
+            ],
+            [
+                "retrying plugin load",
+                1
+            ],
+            [
+                "plugin loaded successfully",
+                1
+            ],
+            [
+                "checking system health",
+                1
+            ],
+            [
+                "system health ok",
+                1
+            ],
+            [
+                "cpu temperature too high",
+                1
+            ],
+            [
+                "cooling system activated",
+                1
+            ],
+            [
+                "temperature still above threshold",
+                1
+            ],
+            [
+                "cooling system malfunction",
+                1
+            ],
+            [
+                "switching to backup cooling",
+                1
+            ],
+            [
+                "backup cooling active",
+                1
+            ],
+            [
+                "monitoring temperature",
+                1
+            ],
+            [
+                "temperature stabilized",
+                1
+            ],
+            [
+                "starting scheduled tasks",
+                1
+            ],
+            [
+                "task queue size: 12",
+                1
+            ],
+            [
+                "running task: cleanup_temp",
+                1
+            ],
+            [
+                "task completed: cleanup_temp",
+                1
+            ],
+            [
+                "running task: sync_database",
+                1
+            ],
+            [
+                "database sync failed: timeout",
+                1
+            ],
+            [
+                "retrying database sync",
+                1
+            ],
+            [
+                "database sync successful",
+                1
+            ],
+            [
+                "updating cache",
+                1
+            ],
+            [
+                "cache updated",
+                1
+            ],
+            [
+                "user login: admin",
+                1
+            ],
+            [
+                "user logout: admin",
+                1
+            ],
+            [
+                "session cleanup",
+                1
+            ],
+            [
+                "session cleanup done",
+                1
+            ],
+            [
+                "high memory usage detected",
+                1
+            ],
+            [
+                "memory allocation failed",
+                1
+            ],
+            [
+                "attempting memory recovery",
+                1
+            ],
+            [
+                "memory recovery successful",
+                1
+            ],
+            [
+                "checking disk space",
+                1
+            ],
+            [
+                "disk space below 10%",
+                1
+            ],
+            [
+                "disk write failure",
+                1
+            ],
+            [
+                "switching to secondary disk",
+                1
+            ],
+            [
+                "secondary disk active",
+                1
+            ],
+            [
+                "running integrity check",
+                1
+            ],
+            [
+                "integrity check passed",
+                1
+            ],
+            [
+                "starting network diagnostics",
+                1
+            ],
+            [
+                "network unreachable",
+                1
+            ],
+            [
+                "retrying network connection",
+                1
+            ],
+            [
+                "network connection restored",
+                1
+            ],
+            [
+                "finalizing startup sequence",
+                1
+            ],
+            [
+                "system fully operational",
+                1
+            ]
+        ],
+        "top_messages": [
+            [
+                "server started successfully",
+                1
+            ],
+            [
+                "initializing modules",
+                1
+            ],
+            [
+                "loading configuration",
+                1
+            ],
+            [
+                "deprecated api usage detected",
+                1
+            ],
+            [
+                "failed to load plugin: missing dependency",
+                1
+            ]
+        ],
+        "most_common_message": "server started successfully",
+        "common_words_across_logs": [],
+        "logs_per_date": {
+            "2024-05-01": 48
+        },
+        "group_by_date": {
+            "2024-05-01": [
+                "Server started successfully",
+                "Initializing modules",
+                "Loading configuration",
+                "Deprecated API usage detected",
+                "Failed to load plugin: missing dependency",
+                "Retrying plugin load",
+                "Plugin loaded successfully",
+                "Checking system health",
+                "System health OK",
+                "CPU temperature too high",
+                "Cooling system activated",
+                "Temperature still above threshold",
+                "Cooling system malfunction",
+                "Switching to backup cooling",
+                "Backup cooling active",
+                "Monitoring temperature",
+                "Temperature stabilized",
+                "Starting scheduled tasks",
+                "Task queue size: 12",
+                "Running task: cleanup_temp",
+                "Task completed: cleanup_temp",
+                "Running task: sync_database",
+                "Database sync failed: timeout",
+                "Retrying database sync",
+                "Database sync successful",
+                "Updating cache",
+                "Cache updated",
+                "User login: admin",
+                "User logout: admin",
+                "Session cleanup",
+                "Session cleanup done",
+                "High memory usage detected",
+                "Memory allocation failed",
+                "Attempting memory recovery",
+                "Memory recovery successful",
+                "Checking disk space",
+                "Disk space below 10%",
+                "Disk write failure",
+                "Switching to secondary disk",
+                "Secondary disk active",
+                "Running integrity check",
+                "Integrity check passed",
+                "Starting network diagnostics",
+                "Network unreachable",
+                "Retrying network connection",
+                "Network connection restored",
+                "Finalizing startup sequence",
+                "System fully operational"
+            ]
+        }
+    }
+}
