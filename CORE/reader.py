@@ -2,6 +2,6 @@ def read_file(file_path):
     try:
         with open(file_path, "r", encoding="utf-8") as f:
             for line in f:
-                yield line
-    except (FileNotFoundError, PermissionError, UnicodeDecodeError, OSError): # I will use Exception later on (generalize error), to stop pycha from barking
+                yield line   # read line in a time (streaming)
+    except (FileNotFoundError, PermissionError, UnicodeDecodeError, OSError) : # I will use Exception later on (generalize error), to stop pycha from barking
         return
